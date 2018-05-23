@@ -35,6 +35,13 @@ body {
   background-attachment: fixed;
   display: flex; }
 
+  iframe{
+    align-self: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+
 @keyframes navAppear {
   from {
     width: 0vw; }
