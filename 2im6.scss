@@ -31,10 +31,32 @@ body {
 
 @keyframes navAppear {
   from {
-  width: 0vw;
+    width: 0vw;
   }
   to {
-  width: 15vw;
+    width: 15vw;
+  }
+}
+
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes bigger {
+  from {
+
+  }
+  to {
+    padding:2em;
   }
 }
 
@@ -89,3 +111,40 @@ body {
   }
 
 }
+
+.CF_title{
+  animation-name: fade-in;
+  animation-duration: 0.5s;
+  border-radius: 15px;
+  align-items: center;
+  text-align: center;
+  width:30%;
+  padding:1% 1%;
+  margin-top: 1%;
+  background-color: rgba(198, 198, 198, 0.75);
+
+}
+
+.CF_title:hover{
+  background-color: rgba(198, 198, 198, 0.90);
+  animation-name: bigger;
+  animation-timing-function: ease-in;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+.CF_info{
+  animation-name: fade-in;
+  animation-duration: 1.2s;
+  margin-top: 2vh;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  align-items: center;
+  text-align: center;
+  width:50%;
+  height:2%;
+  padding:1% 1%;
+  background-color: rgba(198, 198, 198, 0.51);
+
+}
+
