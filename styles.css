@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+html, *, *:before, *:after {
+  box-sizing: border-box; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 200; }
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/thomas-kelley-64329-min.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.5; }
+
+ul {
+  list-style-type: none;
+  margin-top: 250px;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1; }
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none; }
+
+li a:hover {
+  background-color: #555;
+  color: white; }
+
+section {
+  width: 100%; }
+
+.noselect {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+                     /* Non-prefixed version, currently
+									supported by Chrome and Opera */ }
+
+/*# sourceMappingURL=styles.css.map */
