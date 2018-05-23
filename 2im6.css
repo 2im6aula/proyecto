@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+html, *, *:before, *:after {
+	box-sizing: border-box;
+	
+}
+
+* { margin: 0; padding: 0; }
+
+h1,h2,h3,h4,h5,h6{font-weight: 200;}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	color:grey;
+}
+
+section{width: 100%;}
+
+.noselect {
+	-webkit-touch-callout: none; /* iOS Safari */
+	  -webkit-user-select: none; /* Safari */
+	   -khtml-user-select: none; /* Konqueror HTML */
+		 -moz-user-select: none; /* Firefox */
+		  -ms-user-select: none; /* Internet Explorer/Edge */
+			  user-select: none; /* Non-prefixed version, currently
+									supported by Chrome and Opera */
+  }
+
+@keyframes increaseHeight {
+    from {height: 0vh;}
+    to {height:30vh;}
+}
+
+@keyframes unBlur {
+    from {visibility: hidden;}
+    to {visibility: auto;}
+}
+
+
+.header{
+
+	animation-name: increaseHeight;
+    animation-duration: 1s;
+
+	height:30vh;
+	width:100vw;
+	background-color: #000;
+	color:white;
+	position: relative;
+    text-align: center;
+    color: white;
+}
+
+.topimg{
+	height:50vh;
+	width:100vw;
+	filter:blur(5px);
+
+}
+
+.txtHeader{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.txtHeader2{
+
+	animation-name: unBlur;
+    animation-duration: 1.5s;
+
+	position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sub{
+	margin-top: 3vh;
+	color:grey;
+	display: inline;
+}
+
+.sub .subText{
+	float:left;
+	display: inline;
+	padding-top: 10vw;
+	padding-left: 25vw;
+}
+
+.sub h1{
+
+	font-size: 20px;
+	font-weight: bold;
+	
+
+}
+
+.sub h3{
+	margin-top: -8vw;
+	font-size:15px;
+	padding-top: 20vh;
+	width: 20vw;
+
+}
+
+.sub .imgCars{
+	display: inline;
+	float:right;
+
+	padding-top: 2vw;
+	padding-right: 20vw;
+}
+
+/*Duplicar codigo es chido*/
+
+
+.sub2{
+	width: 75%;
+	color:grey;
+	display: inline;
+}
+
+.sub2 h1{
+	font-size: 20px;
+	font-weight: bold;
+	
+}
+
+.sub2 h3{
+	font-size:15px;
+	width:50%;
+}
+
+.img2{
+	height: 40vh;
+	display: inline;
+	float: left;
+	padding-top: 10vh;
+	padding-left: 40vh;
+}
+
+
+
+.subText2{
+	float:right;
+	display: inline;
+	padding-top: -2vw;
+	padding-left: 25vw;
+}
