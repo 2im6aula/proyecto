@@ -126,4 +126,20 @@ body {
   padding: 1% 1%;
   background-color: rgba(198, 198, 198, 0.51); }
 
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
 /*# sourceMappingURL=2im6.css.map */
